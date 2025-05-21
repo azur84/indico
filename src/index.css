@@ -1,0 +1,11 @@
+body,
+html {
+    height: 100%;
+    margin: 0px;
+}
+
+#app {
+    height: 100%;
+    background: #692943;
+    background: linear-gradient(145deg, rgba(105, 41, 67, 1) 0%, rgba(130, 31, 31, 1) 51%, rgba(110, 55, 35, 1) 99%);
+}
