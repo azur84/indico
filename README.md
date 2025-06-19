@@ -1,5 +1,18 @@
-# Vue 3 + TypeScript + Vite
+# 🔍Indico
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Indico is a clue-hunting game set in Carpentras, a city in France.
+The open-source website for the game was developed here.
+It was developed as part of an activity organised by [Le tiers lieu de Carpentras](https://letierslieudecarpentras.fr/).
+[![Logo of Tier lieu](https://letierslieudecarpentras.fr/wp-content/uploads/2023/07/TTRA.jpg)](https://letierslieudecarpentras.fr/)
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Who to play ?
+
+To start, you need to find one of the many QR codes hidden around the city.
+After that, the game will direct you to a new location where you can find another QR code.
+Each time you scan a QR code, you get an additional clue to the murderer.
+Once all the clues have been found, the game gives you one last place to finish the game.
+
+## Other information
+
+The website has been designed for use on a phone.
+Support for Computeur was not provided.

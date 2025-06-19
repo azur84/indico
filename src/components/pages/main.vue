@@ -1,15 +1,14 @@
-<template>
-    <div>
-        <h1>Rendez-vous dans un lieu pour démarrer l'enquête !</h1>
-        <iframe
-            src="https://www.google.com/maps/embed?list=hVPZTTm4xndzDiDf7"
-            width="600" height="450" style="border:0;" allowfullscreen=false loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-</template>
-
 <script setup lang="ts">
+import HomePage from './home/index.vue';
+import StartPage from './start/main.vue';
 
+const data = window.localStorage.getItem("data")
 </script>
+
+<template>
+    <!-- Check if the app must display HomePage or StartPage if the game is launched -->
+    <HomePage v-if="data" />
+    <StartPage v-else />
+</template>
 
 <style scoped></style>

@@ -1,11 +1,21 @@
 body,
 html {
     height: 100%;
+    width: 100%;
     margin: 0px;
 }
 
 #app {
     height: 100%;
+    width: 100%;
     background: #692943;
     background: linear-gradient(145deg, rgba(105, 41, 67, 1) 0%, rgba(130, 31, 31, 1) 51%, rgba(110, 55, 35, 1) 99%);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
 }
